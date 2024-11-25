@@ -1,0 +1,199 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Namaste",
+        "yo"
+      ],
+      "responses": [
+        "Hello! Welcome to Chitti's Cafe! How can I help you today?",
+        "Good to see you! What can I get for you?",
+        "Hi there, ready to grab something delicious?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Get lost",
+        "Till next time",
+        "bbye"
+      ],
+      "responses": [
+        "See you! Have a great day and enjoy your meal!",
+        "Goodbye! Come back to Chitti's Cafe soon.",
+        "Take care! Hope to serve you again!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "You're welcome! Enjoy your food!",
+        "Anytime! Happy to assist you!",
+        "My pleasure, hope you enjoy your meal!"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What is on the menu?",
+        "Show me the menu",
+        "What do you serve?",
+        "What are the specials?"
+      ],
+      "responses": [
+        "We offer a variety of coffees, teas, pastries, and snacks! Would you like a specific recommendation?",
+        "Our menu includes delicious coffee, sandwiches, desserts, and a wide range of beverages! What are you in the mood for?"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "I would like to order",
+        "Can I place an order?",
+        "I'd like to get a drink",
+        "Can I get a coffee?"
+      ],
+      "responses": [
+        "Sure! What would you like to order?",
+        "I'd love to take your order. What are you craving today?"
+      ]
+    },
+    {
+      "tag": "thanks_for_order",
+      "patterns": [
+        "Thank you for the order",
+        "That was great",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "You're welcome! Your order will be ready shortly.",
+        "Thank you! Your order is being prepared now!"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint",
+        "This is not good",
+        "I am unhappy with my order"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Please let me know what went wrong, and we'll fix it right away.",
+        "We apologize for the inconvenience. We'll do our best to resolve the issue."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your opening hours?",
+        "When do you open?",
+        "What time do you close?"
+      ],
+      "responses": [
+        "We are open from 8 AM to 9 PM every day. Come by anytime for your coffee fix!",
+        "Our hours are 8 AM to 9 PM daily. Hope to see you soon!"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where is your cafe?",
+        "Where are you located?",
+        "Can I get directions to your cafe?"
+      ],
+      "responses": [
+        "We are located at 123 Coffee Lane, Downtown. Just a short walk from the park!",
+        "Our cafe is at 123 Coffee Lane, Downtown. Come by for some freshly brewed coffee!"
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["Give me feedback", "How was my visit?", "How am I doing?"],
+      "responses": [
+        "We love feedback! Please feel free to share your thoughts with us to help improve your experience.",
+        "Your feedback is always welcome! How can we serve you better?"
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": ["Tell me a joke", "Joke", "Make me laugh"],
+      "responses": [
+        "Why don't coffee beans ever gossip? Because they don’t want to espresso too much!",
+        "Why did the coffee file a police report? It got mugged!",
+        "What’s the best way to catch a coffee thief? Use a java trap!"
+      ]
+    },
+    {
+      "tag": "coffee_type",
+      "patterns": [
+        "What types of coffee do you have?",
+        "What coffee do you serve?",
+        "Tell me about your coffee"
+      ],
+      "responses": [
+        "We offer espresso, cappuccino, latte, americano, and cold brew. What would you like?",
+        "Our coffee selection includes espresso, cappuccinos, lattes, and more! Which one are you in the mood for?"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "What’s your contact information?",
+        "Can I get your number?"
+      ],
+      "responses": [
+        "You can reach us by phone at (555) 123-4567 or email us at chitti.cafe@example.com!",
+        "Feel free to call us at (555) 123-4567 or send an email to chitti.cafe@example.com."
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["Who are you", "What are you", "Who is Chitti"],
+      "responses": [
+        "I am Chitti, your friendly cafe chatbot! I'm here to help you with orders, menu suggestions, and more."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "When were you made?",
+        "What is your age?"
+      ],
+      "responses": [
+        "I was created just to serve coffee lovers like you! Let's enjoy the journey together!"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "How long until my coffee is ready?",
+        "When will my food be ready?"
+      ],
+      "responses": [
+        "Your order is being prepared! It will be ready shortly.",
+        "The barista is making your coffee now, it should be ready soon!"
+      ]
+    }
+  ]
+}
